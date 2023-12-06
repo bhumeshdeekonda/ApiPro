@@ -15,14 +15,14 @@ namespace ApiProject.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description";
+            ViewBag.Message = "Your application";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your contact";
 
             return View();
         }
