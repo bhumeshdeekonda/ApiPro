@@ -11,7 +11,7 @@ namespace ApiProject.Controllers
     {
         public TestController()
         {
-            
+            Console.Write("Hello");
         }
 
     }
